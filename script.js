@@ -40,5 +40,4 @@ const guess = function() {
     };    
 };
 
-const guessNumber = guess();
-guessNumber();
+guess()();
