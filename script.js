@@ -10,8 +10,6 @@ const guess = function() {
 
     let randomNumber = Math.floor(Math.random() * 100);
 
-    console.log(randomNumber);
-
     return function repeat() {
 
         let number = prompt("Угадай число от 1 до 100");
@@ -38,7 +36,6 @@ const guess = function() {
             alert("Введи число!");
         }
         
-        console.log(randomNumber, number);
         return repeat();
     };    
 };
